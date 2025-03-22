@@ -395,7 +395,6 @@
               </nav>
 
               <script>
-                // Mobile menu toggle
                 document
                   .getElementById("mobile-menu-button")
                   .addEventListener("click", function () {
@@ -858,91 +857,53 @@
                       Discover the best restaurants in your area
                     </p>
                   </div>
-                  <div class="mt-4 md:mt-0">
-                    <div class="flex items-center">
-                      <button
-                        class="mr-2 bg-white p-2 rounded-full shadow hover:shadow-md transition-shadow"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          class="h-6 w-6 text-gray-600"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M15 19l-7-7 7-7"
-                          ></path>
-                        </svg>
-                      </button>
-                      <button
-                        class="bg-white p-2 rounded-full shadow hover:shadow-md transition-shadow"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          class="h-6 w-6 text-gray-600"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 5l7 7-7 7"
-                          ></path>
-                        </svg>
-                      </button>
-                    </div>
-                  </div>
+                 
                 </div>
 
                 <div class="flex flex-wrap gap-3 mb-8">
-                  <button
-                    class="px-4 py-2 bg-[#FF6B35] text-white rounded-full hover:bg-[#e55a2a] transition-colors"
+                  <button onclick="showTab(0)"
+                    class="tab active px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
                   >
                     All
                   </button>
-                  <button
-                    class="px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
+                  <button onclick="showTab(1)"
+                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
                   >
                     Pizza
                   </button>
-                  <button
-                    class="px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
+                  <button onclick="showTab(2)"
+                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
                   >
                     Burgers
                   </button>
-                  <button
-                    class="px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
+                  <button onclick="showTab(3)"
+                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
                   >
                     Sushi
                   </button>
-                  <button
-                    class="px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
+                  <button onclick="showTab(4)"
+                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
                   >
                     Italian
                   </button>
-                  <button
-                    class="px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
+                  <button onclick="showTab(5)"
+                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
                   >
                     Chinese
                   </button>
-                  <button
-                    class="px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
+                  <button onclick="showTab(6)"
+                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
                   >
                     Mexican
                   </button>
                 </div>
 
                 <div
-                  class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
+                  class="content grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
+                  id="restaurant-list"
                 >
-                  <div
-                    class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+                  <div 
+                    class=" bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow"
                   >
                     <div class="relative">
                       <img
@@ -1416,12 +1377,12 @@
                 </div>
 
                 <div class="mt-12 text-center">
-                  <a
-                    href="#"
+                  <button
+                    id="load-more-button"
                     class="inline-block border-2 border-[#FF6B35] text-[#FF6B35] hover:bg-[#FF6B35] hover:text-white font-semibold px-8 py-3 rounded-lg transition-colors"
                   >
                     View All Restaurants
-                  </a>
+                  </button>
                 </div>
               </div>
             </section>
@@ -4470,5 +4431,6 @@
       <polyline id="SvgjsPolyline1003" points="0,0"></polyline>
       <path id="SvgjsPath1004" d="M0 0 "></path>
     </svg>
+    <script src="script.js"></script>
   </body>
 </html>

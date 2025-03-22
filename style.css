@@ -1,14 +1,44 @@
 h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        font-family: Poppins, sans-serif, Inter, system-ui, sans-serif;
-      }
-      body {
-        font-family: Montserrat, sans-serif, Inter, system-ui, sans-serif;
-      }
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Poppins, sans-serif, Inter, system-ui, sans-serif;
+}
+body {
+  font-family: Montserrat, sans-serif, Inter, system-ui, sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.tab.active {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #FF6B35;
+  color: white;
+  border-radius: 100px;
+  border: 2px solid #FF6B35;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.tab .active:hover {
+  background-color: #e55a2a;
+  color: white;
+}
+.content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+.content.active {
+  display: grid;
+}
 html[lang] > body.ishome > div.adult + main.main, .buttonautocl, html[lang] > body:not([class]):not([id]):not([style]) > div.background-container > div.container > div.captcha-box, html[lang] > body.startnew > div#sections > section#section_uname, html[lang] > body:not([style]) > div.captchaBody, html[lang] > body#body > * > div.cv-xwrapper > div.cvc > div.cv-inner, html[lang] > body#body > * > div.cvh.BlockClicksActivityBusy, html#html[sti][vic][lang] > body#allbody, html > body > div.container.m-p > #checkbox-window.checkbox-window, html[lang] > body:not([class]):not([id]):not([style]) > div.container > div.recaptcha-box, html > body.hold-transition.theme-primary.bg-img[style^="background-image"][style*="wallpaperaccess.com"][style*="background-repeat"][style*="background-size"], html > body > div.container > form#unsubscribe-form[onsubmit="submitUnsubscribeForm(event)"], html > body > div.content > dl > dd.dd1 > div.min_sider > form#form1[action="unsubscribe.php"], html > body.body > div.container > div.content > form > table.optoutForm, a[href^="https://searchlnk.ru/r/"], #psyduckpockeball, a[href^="https://ya-distrib.ru/r/"], .mywidget__col > a.mywidget__link_advert, div[id^="_u_ablock_"], div[data-banner-name], .ipsAdvertisement, .adv-news-within, div[id^="yandex_rtb"], a[href^="https://ad.letmeads.com/"], div[data-adv-type="dfp"], body #vid_vpaut_div, .adsbyyottos, .flat_pm_outgoing, #Ad2, #AdText, #Ad_Top, #Adfox_Banner, #AdvertFieldBottom, #AdvertFieldCenter, #AdvertFieldTop, #Advertisement, #AdvertisingTopLine, #BanHolder28-1, #BannerDiv, #BannerGBottom, #BannerGCenter, #BannerGIMG, #BannerGTop, #BannerH2Left, #BannerHIMG, #BannerHLeft, #BannerUnderBroChat, #JaboxAdBarOuter, #JobInformer, #METABAR_IFRAME
 {
   display: none !important;
@@ -15311,22 +15341,19 @@ video {
 .-rotate-2 {
   --tw-rotate: -2deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x))
-    skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
-    scaleY(var(--tw-scale-y));
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .rotate-3 {
   --tw-rotate: 3deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x))
-    skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
-    scaleY(var(--tw-scale-y));
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x))
-    skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
-    scaleY(var(--tw-scale-y));
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .cursor-pointer {
   cursor: pointer;
@@ -15546,10 +15573,7 @@ video {
   --tw-bg-opacity: 0.8;
 }
 .bg-gradient-to-br {
-  background-image: linear-gradient(
-    to bottom right,
-    var(--tw-gradient-stops)
-  );
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
@@ -15782,8 +15806,7 @@ video {
   opacity: 0.7;
 }
 .shadow {
-  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1),
-    0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),
     0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
@@ -15804,8 +15827,7 @@ video {
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .shadow-md {
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
-    0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
     0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
@@ -15898,8 +15920,7 @@ video {
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .hover\:shadow-md:hover {
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
-    0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
     0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
