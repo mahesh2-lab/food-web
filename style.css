@@ -28,7 +28,6 @@ body {
 }
 .tab .active:hover {
   background-color: #e55a2a;
-  color: white;
 }
 .content {
   display: none;

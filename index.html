@@ -11,7 +11,6 @@
     />
     <meta name="theme-color" content="#ffffff" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="robots" content="" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
@@ -22,20 +21,13 @@
       rel="stylesheet"
     />
 
-    <title>
-      FoodFlex | Order Food Online from Local Restaurants | Fast Delivery
-    </title>
-    <meta
-      name="description"
-      content="Order delicious food online from your favorite local restaurants with FoodFlex. Browse menus, customize orders, track delivery in real-time, and enjoy secure checkout. Sign up now!"
-    />
+    <title>FoodFlex</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link rel="preload" href="https://cdn.tailwindcss.com" as="script" />
 
     <script id="header-scripts">
-      // This script tag will be replaced with actual scripts.head content
       if (window.scripts && window.scripts.head) {
         document.getElementById("header-scripts").outerHTML =
           window.scripts.head;
@@ -224,27 +216,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="robots" content="" />
-    <meta name="google-site-verification" content="" />
-    <meta name="baidu-verification" content="" />
-    <meta name="yandex-verification" content="" />
-    <meta name="bing-verification" content="" />
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="en_US" />
-    <meta
-      property="og:site_name"
-      content="FoodFlex - Online Food Ordering Platform"
-    />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="" />
-    <meta name="twitter:description" content="" />
-    <meta name="twitter:image" content="" />
 
     <link rel="icon" type="image/x-icon" href="" />
 
@@ -441,6 +412,7 @@
                     <div class="mt-8 flex items-center">
                       <div class="flex -space-x-2">
                         <img
+                          loading="lazy"
                           src="https://avatar.iran.liara.run/public"
                           alt="Customer profile"
                           class="w-10 h-10 rounded-full border-2 border-white"
@@ -449,6 +421,7 @@
                           height="40"
                         />
                         <img
+                          loading="lazy"
                           src="https://avatar.iran.liara.run/public"
                           alt="Customer profile"
                           class="w-10 h-10 rounded-full border-2 border-white"
@@ -457,6 +430,7 @@
                           height="40"
                         />
                         <img
+                          loading="lazy"
                           src="https://avatar.iran.liara.run/public"
                           alt="Customer profile"
                           class="w-10 h-10 rounded-full border-2 border-white"
@@ -528,6 +502,7 @@
                   <div class="md:w-1/2 relative">
                     <div class="relative rounded-xl overflow-hidden shadow-2xl">
                       <img
+                        loading="lazy"
                         src="https://food-delivery-frontend-s2l9.onrender.com/header_img.png"
                         alt="Food delivery service showcasing various dishes and delivery process"
                         class="w-full rounded-xl"
@@ -857,42 +832,48 @@
                       Discover the best restaurants in your area
                     </p>
                   </div>
-                 
                 </div>
 
                 <div class="flex flex-wrap gap-3 mb-8">
-                  <button onclick="showTab(0)"
-                    class="tab active px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
+                  <button
+                    onclick="showTab(0)"
+                    class="tab active px-4 py-2 bg-white text-gray-700 rounded-full transition-colors"
                   >
                     All
                   </button>
-                  <button onclick="showTab(1)"
-                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
+                  <button
+                    onclick="showTab(1)"
+                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full transition-colors"
                   >
                     Pizza
                   </button>
-                  <button onclick="showTab(2)"
-                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
+                  <button
+                    onclick="showTab(2)"
+                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full transition-colors"
                   >
                     Burgers
                   </button>
-                  <button onclick="showTab(3)"
-                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
+                  <button
+                    onclick="showTab(3)"
+                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full transition-colors"
                   >
                     Sushi
                   </button>
-                  <button onclick="showTab(4)"
-                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
+                  <button
+                    onclick="showTab(4)"
+                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full transition-colors"
                   >
                     Italian
                   </button>
-                  <button onclick="showTab(5)"
-                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
+                  <button
+                    onclick="showTab(5)"
+                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full transition-colors"
                   >
                     Chinese
                   </button>
-                  <button onclick="showTab(6)"
-                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full hover:bg-gray-100 transition-colors"
+                  <button
+                    onclick="showTab(6)"
+                    class="tab px-4 py-2 bg-white text-gray-700 rounded-full transition-colors"
                   >
                     Mexican
                   </button>
@@ -902,11 +883,12 @@
                   class="content grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
                   id="restaurant-list"
                 >
-                  <div 
-                    class=" bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+                  <div
+                    class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow"
                   >
                     <div class="relative">
                       <img
+                        loading="lazy"
                         src="https://b.zmtcdn.com/data/reviews_photos/c5f/15c5bcc92bdd76052ba108d34fa13c5f_1625849077.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
                         alt="Italian restaurant with pasta dishes and pizza"
                         class="w-full object-cover"
@@ -985,6 +967,7 @@
                   >
                     <div class="relative">
                       <img
+                        loading="lazy"
                         src="https://www.shutterstock.com/shutterstock/photos/2494140679/display_1500/stock-photo-beautiful-and-supremely-delicious-seafood-bowls-at-a-seafood-restaurant-in-shimoda-cold-japanese-2494140679.jpg"
                         alt="Japanese sushi restaurant with assorted sushi rolls and sashimi"
                         class="w-full object-cover"
@@ -1064,6 +1047,7 @@
                   >
                     <div class="relative">
                       <img
+                        loading="lazy"
                         src="https://b.zmtcdn.com/data/pictures/chains/8/19135228/d675f1ca85a593e648b490753fe0555b_featured_v2.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*"
                         alt="Burger restaurant featuring gourmet burgers and fries"
                         class="w-full object-cover"
@@ -1143,6 +1127,7 @@
                   >
                     <div class="relative">
                       <img
+                        loading="lazy"
                         src="https://images.unsplash.com/photo-1602253057119-44d745d9b860?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Mexican restaurant with colorful tacos and burritos"
                         class="w-full object-cover"
@@ -1222,6 +1207,7 @@
                   >
                     <div class="relative">
                       <img
+                        loading="lazy"
                         src="https://images.unsplash.com/photo-1580476262798-bddd9f4b7369?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Chinese restaurant with various dim sum and noodle dishes"
                         class="w-full object-cover"
@@ -1301,6 +1287,7 @@
                   >
                     <div class="relative">
                       <img
+                        loading="lazy"
                         src="https://images.unsplash.com/photo-1559753496-89b160628831?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Pizza restaurant with wood-fired pizzas"
                         class="w-full object-cover"
@@ -1414,6 +1401,7 @@
                       class="w-16 h-16 flex items-center justify-center mx-auto mb-4 bg-[#FF6B35] bg-opacity-10 rounded-full"
                     >
                       <img
+                        loading="lazy"
                         src="https://plus.unsplash.com/premium_vector-1730985075281-72821422818f?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Pizza icon"
                         class="w-10 h-10 object-contain"
@@ -1433,6 +1421,7 @@
                       class="w-16 h-16 flex items-center justify-center mx-auto mb-4 bg-[#2EC4B6] bg-opacity-10 rounded-full"
                     >
                       <img
+                        loading="lazy"
                         src="https://plus.unsplash.com/premium_vector-1734153846189-100d02ecf807?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Burger icon"
                         class="w-10 h-10 object-contain"
@@ -1452,6 +1441,7 @@
                       class="w-16 h-16 flex items-center justify-center mx-auto mb-4 bg-[#FF6B35] bg-opacity-10 rounded-full"
                     >
                       <img
+                        loading="lazy"
                         src="https://plus.unsplash.com/premium_vector-1731106251553-e3b84cb16f24?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Sushi icon"
                         class="w-10 h-10 object-contain"
@@ -1471,6 +1461,7 @@
                       class="w-16 h-16 flex items-center justify-center mx-auto mb-4 bg-[#2EC4B6] bg-opacity-10 rounded-full"
                     >
                       <img
+                        loading="lazy"
                         src="https://plus.unsplash.com/premium_vector-1731483091276-ad7534a540e1?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Taco icon"
                         class="w-10 h-10 object-contain"
@@ -1490,6 +1481,7 @@
                       class="w-16 h-16 flex items-center justify-center mx-auto mb-4 bg-[#FF6B35] bg-opacity-10 rounded-full"
                     >
                       <img
+                        loading="lazy"
                         src="https://plus.unsplash.com/premium_vector-1731205147480-f63a955fce56?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEl0YWxpYW4lMjBmb29kfGVufDB8fDB8fHww"
                         alt="Pasta icon"
                         class="w-10 h-10 object-contain"
@@ -1509,6 +1501,7 @@
                       class="w-16 h-16 flex items-center justify-center mx-auto mb-4 bg-[#2EC4B6] bg-opacity-10 rounded-full"
                     >
                       <img
+                        loading="lazy"
                         src="https://plus.unsplash.com/premium_vector-1728829636183-b0dc1caeea24?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Noodles icon"
                         class="w-10 h-10 object-contain"
@@ -1528,6 +1521,7 @@
                       class="w-16 h-16 flex items-center justify-center mx-auto mb-4 bg-[#FF6B35] bg-opacity-10 rounded-full"
                     >
                       <img
+                        loading="lazy"
                         src="https://plus.unsplash.com/premium_vector-1714402562939-54e26b3ed449?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Curry icon"
                         class="w-10 h-10 object-contain"
@@ -1547,6 +1541,7 @@
                       class="w-16 h-16 flex items-center justify-center mx-auto mb-4 bg-[#2EC4B6] bg-opacity-10 rounded-full"
                     >
                       <img
+                        loading="lazy"
                         src="https://plus.unsplash.com/premium_vector-1736573589810-9fcced41e1dc?q=80&w=1992&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Salad icon"
                         class="w-10 h-10 object-contain"
@@ -1566,6 +1561,7 @@
                       class="w-16 h-16 flex items-center justify-center mx-auto mb-4 bg-[#FF6B35] bg-opacity-10 rounded-full"
                     >
                       <img
+                        loading="lazy"
                         src="https://plus.unsplash.com/premium_vector-1731407192741-1b059ce4613d?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Kebab icon"
                         class="w-10 h-10 object-contain"
@@ -1585,6 +1581,7 @@
                       class="w-16 h-16 flex items-center justify-center mx-auto mb-4 bg-[#2EC4B6] bg-opacity-10 rounded-full"
                     >
                       <img
+                        loading="lazy"
                         src="https://plus.unsplash.com/premium_vector-1723887069419-d67985971a25?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Breakfast icon"
                         class="w-10 h-10 object-contain"
@@ -1604,6 +1601,7 @@
                       class="w-16 h-16 flex items-center justify-center mx-auto mb-4 bg-[#FF6B35] bg-opacity-10 rounded-full"
                     >
                       <img
+                        loading="lazy"
                         src="https://plus.unsplash.com/premium_vector-1722013387332-81bf2e6001c6?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Dessert icon"
                         class="w-10 h-10 object-contain"
@@ -1623,6 +1621,7 @@
                       class="w-16 h-16 flex items-center justify-center mx-auto mb-4 bg-[#2EC4B6] bg-opacity-10 rounded-full"
                     >
                       <img
+                        loading="lazy"
                         src="https://png.pngtree.com/png-clipart/20250219/original/pngtree-more-icon-design--essential-icon-vector-design-png-image_4168887.png"
                         alt="More cuisines icon"
                         class="w-10 h-10 object-contain"
@@ -1687,6 +1686,7 @@
                     >
                       <div class="relative">
                         <img
+                          loading="lazy"
                           src="https://images.pexels.com/photos/16716140/pexels-photo-16716140/free-photo-of-shashlik-with-tomatoes-cheese-and-sausage.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                           alt="Margherita Pizza"
                           class="w-full h-40 object-cover"
@@ -1736,6 +1736,7 @@
                     >
                       <div class="relative">
                         <img
+                          loading="lazy"
                           src="https://images.pexels.com/photos/31236419/pexels-photo-31236419/free-photo-of-hearty-smoked-pork-and-vegetable-soup-in-london.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                           alt="Chicken Teriyaki Sushi"
                           class="w-full h-40 object-cover"
@@ -1785,6 +1786,7 @@
                     >
                       <div class="relative">
                         <img
+                          loading="lazy"
                           src="https://images.pexels.com/photos/18229213/pexels-photo-18229213/free-photo-of-a-beetroot-carpaccio.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                           alt="Classic Cheeseburger"
                           class="w-full object-cover"
@@ -1832,6 +1834,7 @@
                     >
                       <div class="relative">
                         <img
+                          loading="lazy"
                           src="https://images.pexels.com/photos/18229217/pexels-photo-18229217/free-photo-of-a-gourmet-dish-with-caviar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                           alt="Beef Street Tacos"
                           class="w-full h-40 object-cover"
@@ -1946,6 +1949,7 @@
                     </div>
                     <div class="md:w-1/2 relative">
                       <img
+                        loading="lazy"
                         src="https://images.pexels.com/photos/2995146/pexels-photo-2995146.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="A colorful arrangement of various dishes with discount promotion"
                         class="w-full h-full object-cover"
@@ -1963,6 +1967,7 @@
                   >
                     <div class="relative">
                       <img
+                        loading="lazy"
                         src="https://images.pexels.com/photos/6994261/pexels-photo-6994261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="Free delivery promotion"
                         class="w-full object-cover"
@@ -2003,6 +2008,7 @@
                   >
                     <div class="relative">
                       <img
+                        loading="lazy"
                         src="https://images.pexels.com/photos/5638752/pexels-photo-5638752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="Family meal deal promotion"
                         class="w-full object-cover"
@@ -2043,6 +2049,7 @@
                   >
                     <div class="relative">
                       <img
+                        loading="lazy"
                         src="https://images.pexels.com/photos/7462841/pexels-photo-7462841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="Lunch special promotion"
                         class="w-full object-cover"
@@ -2093,6 +2100,7 @@
                         class="bg-[#FF6B35] bg-opacity-10 p-3 rounded-full mr-4"
                       >
                         <img
+                          loading="lazy"
                           src="https://images.pexels.com/photos/8696565/pexels-photo-8696565.jpeg?auto=compress&cs=tinysrgb&w=600"
                           alt="Pasta Paradise logo"
                           class="w-12 h-12 rounded-full object-cover"
@@ -2118,6 +2126,7 @@
                         class="bg-[#2EC4B6] bg-opacity-10 p-3 rounded-full mr-4"
                       >
                         <img
+                          loading="lazy"
                           src="https://images.pexels.com/photos/5056823/pexels-photo-5056823.jpeg?auto=compress&cs=tinysrgb&w=600"
                           alt="Sushi Supreme logo"
                           class="w-12 h-12 rounded-full object-cover"
@@ -2143,6 +2152,7 @@
                         class="bg-[#FF6B35] bg-opacity-10 p-3 rounded-full mr-4"
                       >
                         <img
+                          loading="lazy"
                           src="https://images.pexels.com/photos/11912788/pexels-photo-11912788.jpeg?auto=compress&cs=tinysrgb&w=600"
                           alt="Burger Bonanza logo"
                           class="w-12 h-12 rounded-full object-cover"
@@ -2168,6 +2178,7 @@
                         class="bg-[#2EC4B6] bg-opacity-10 p-3 rounded-full mr-4"
                       >
                         <img
+                          loading="lazy"
                           src="https://images.pexels.com/photos/13085835/pexels-photo-13085835.jpeg?auto=compress&cs=tinysrgb&w=600"
                           alt="Taco Town logo"
                           class="w-12 h-12 rounded-full object-cover"
@@ -2662,6 +2673,7 @@
                       </p>
                       <div class="mt-5 flex items-center">
                         <img
+                          loading="lazy"
                           src="https://avatar.iran.liara.run/public"
                           alt="User testimonial"
                           class="w-10 h-10 rounded-full mr-3 object-cover"
@@ -2740,6 +2752,7 @@
                       </p>
                       <div class="mt-5 flex items-center">
                         <img
+                          loading="lazy"
                           src="https://avatar.iran.liara.run/public"
                           alt="User testimonial"
                           class="w-10 h-10 rounded-full mr-3 object-cover"
@@ -2818,6 +2831,7 @@
                       </p>
                       <div class="mt-5 flex items-center">
                         <img
+                          loading="lazy"
                           src="https://avatar.iran.liara.run/public"
                           alt="User testimonial"
                           class="w-10 h-10 rounded-full mr-3 object-cover"
@@ -2919,6 +2933,7 @@
                       </blockquote>
                       <div class="flex items-center">
                         <img
+                          loading="lazy"
                           src="https://avatar.iran.liara.run/public"
                           alt="Profile picture of Sarah Johnson"
                           class="w-12 h-12 rounded-full mr-4 object-cover"
@@ -3021,6 +3036,7 @@
                     </p>
                     <div class="flex items-center">
                       <img
+                        loading="lazy"
                         src="https://avatar.iran.liara.run/public"
                         alt="Profile picture of Michael Rodriguez"
                         class="w-10 h-10 rounded-full mr-3 object-cover"
@@ -3101,6 +3117,7 @@
                     </p>
                     <div class="flex items-center">
                       <img
+                        loading="lazy"
                         src="https://avatar.iran.liara.run/public"
                         alt="Profile picture of Jennifer Lee"
                         class="w-10 h-10 rounded-full mr-3 object-cover"
@@ -3181,6 +3198,7 @@
                     </p>
                     <div class="flex items-center">
                       <img
+                        loading="lazy"
                         src="https://avatar.iran.liara.run/public"
                         alt="Profile picture of David Thompson"
                         class="w-10 h-10 rounded-full mr-3 object-cover"
@@ -3772,6 +3790,7 @@
                       <div class="mt-8 flex items-center">
                         <div class="flex -space-x-2">
                           <img
+                            loading="lazy"
                             src="https://avatar.iran.liara.run/public/boy"
                             alt="Subscriber profile"
                             class="w-8 h-8 rounded-full border-2 border-white"
@@ -3780,6 +3799,7 @@
                             height="32"
                           />
                           <img
+                            loading="lazy"
                             src="https://avatar.iran.liara.run/public/boy"
                             alt="Subscriber profile"
                             class="w-8 h-8 rounded-full border-2 border-white"
@@ -3788,6 +3808,7 @@
                             height="32"
                           />
                           <img
+                            loading="lazy"
                             src="https://avatar.iran.liara.run/public/boy"
                             alt="Subscriber profile"
                             class="w-8 h-8 rounded-full border-2 border-white"
@@ -3804,6 +3825,7 @@
 
                     <div class="md:w-1/2 relative hidden md:block">
                       <img
+                        loading="lazy"
                         src="https://images.pexels.com/photos/4261994/pexels-photo-4261994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="Food delivery special offers and promotional deals"
                         class="w-full h-full object-cover"
